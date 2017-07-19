@@ -1,3 +1,5 @@
+[![image-title-here](overview.jpg){:class=”img-responsive”}](https://arxiv.org/abs/1703.10660)
+
 ## Abstract
 With an increasing number of users sharing information online, privacy implications entailing such actions are a major concern.
 For explicit content, such as user profile or GPS data, devices (e.g. mobile phones) as well as web services (e.g. facebook) offer to set privacy settings in order to enforce the users' privacy preferences.
@@ -13,15 +15,15 @@ We propose the first approach that extends this concept to image content in the 
 ## Bibtex
 ```
 @inproceedings{orekondy17iccv,
-title = {Towards a Visual Privacy Advisor: Understanding and Predicting Privacy Risks in Images},
-author = {Tribhuvanesh Orekondy and Bernt Schiele and Mario Fritz},
-year = {2017},
-date = {2017-10-29},
-booktitle = {IEEE International Conference on Computer Vision (ICCV)},
-note = {to appear},
-keywords = {2017},
-pubstate = {published},
-tppubtype = {inproceedings}
+  title = {Towards a Visual Privacy Advisor: Understanding and Predicting Privacy Risks in Images},
+  author = {Tribhuvanesh Orekondy and Bernt Schiele and Mario Fritz},
+  year = {2017},
+  date = {2017-10-29},
+  booktitle = {IEEE International Conference on Computer Vision (ICCV)},
+  note = {to appear},
+  keywords = {2017},
+  pubstate = {published},
+  tppubtype = {inproceedings}
 }
 ```
 
