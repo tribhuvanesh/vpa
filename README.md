@@ -24,5 +24,10 @@ tppubtype = {inproceedings}
 }
 ```
 
+## People
+  - [Tribhuvanesh Orekondy](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/people/tribhuvanesh-orekondy/)
+  - [Bernt Schiele](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/people/bernt-schiele/)
+  - [Mario Fritz](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/people/mario-fritz/)
+
 ## Acknowledgement
 This research was supported by the German Research Foundation (DFG CRC 1223).
