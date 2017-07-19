@@ -6,6 +6,7 @@ We propose the first approach that extends this concept to image content in the 
 
 ## Resources
   - [Paper](https://arxiv.org/abs/1703.10660)
+  - [Poster](http://resources.mpi-inf.mpg.de/d2/orekondy/vpa_poster.pdf)
   - Code (Coming soon)
   - Dataset (Coming soon)
   
