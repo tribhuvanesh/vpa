@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+## Abstract
+With an increasing number of users sharing information online, privacy implications entailing such actions are a major concern.
+For explicit content, such as user profile or GPS data, devices (e.g. mobile phones) as well as web services (e.g. facebook) offer to set privacy settings in order to enforce the users' privacy preferences.
 
-You can use the [editor on GitHub](https://github.com/tribhuvanesh/visual_privacy_advisor/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
+We propose the first approach that extends this concept to image content in the spirit of a _Visual Privacy Advisor_.  First, we categorize personal information in images into 68 image attributes and collect a dataset, which allows us to train models that predict such information directly from images. Second, we run a user study to understand the privacy preferences of different users w.r.t. such attributes. Third, we propose models that predict user specific privacy score from images in order to enforce the users' privacy preferences. Our model is trained to predict the user specific privacy risk and even outperforms the judgment of the users, who often fail to follow their own privacy preferences on image data.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## Resources
+  - [Paper](https://arxiv.org/abs/1703.10660)
+  - Code (Coming soon)
+  - Dataset (Coming soon)
+  
+## Bibtex
+```
+@inproceedings{orekondy17iccv,
+title = {Towards a Visual Privacy Advisor: Understanding and Predicting Privacy Risks in Images},
+author = {Tribhuvanesh Orekondy and Bernt Schiele and Mario Fritz},
+year = {2017},
+date = {2017-10-29},
+booktitle = {IEEE International Conference on Computer Vision (ICCV)},
+note = {to appear},
+keywords = {2017},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tribhuvanesh/visual_privacy_advisor/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Acknowledgement
+This research was supported by the German Research Foundation (DFG CRC 1223).
