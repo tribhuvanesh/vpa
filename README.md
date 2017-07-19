@@ -1,3 +1,7 @@
+---
+title: Visual Privacy Advisor
+---
+
 ## Abstract
 With an increasing number of users sharing information online, privacy implications entailing such actions are a major concern.
 For explicit content, such as user profile or GPS data, devices (e.g. mobile phones) as well as web services (e.g. facebook) offer to set privacy settings in order to enforce the users' privacy preferences.
