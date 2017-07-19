@@ -1,6 +1,3 @@
----
-title: Visual Privacy Advisor
----
 
 ## Abstract
 With an increasing number of users sharing information online, privacy implications entailing such actions are a major concern.
