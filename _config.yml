@@ -1,3 +1,5 @@
 title: "Towards a Visual Privacy Advisor: Understanding and Predicting Privacy Risks in Images"
 description: "To appear in ICCV 2017"
 theme: jekyll-theme-cayman
+gems:
+  - jekyll-seo-tag
