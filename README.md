@@ -32,7 +32,7 @@ We propose the first approach that extends this concept to image content in the 
   - [Bernt Schiele](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/people/bernt-schiele/)
   - [Mario Fritz](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/people/mario-fritz/)
 
-## In the Media
+## Press Coverage
   - [Forbes](https://www.forbes.com/sites/kevinmurnane/2017/04/10/your-selfies-can-hurt-you-but-theres-a-privacy-adviser-that-can-help/#189b66e7589a)
   - [Vocativ](http://www.vocativ.com/418862/ai-privacy-assistants-expose-sensitive-info/)
   - [Vice](https://motherboard.vice.com/en_us/article/3dmwqk/are-your-selfies-leaking-your-fingerprints-this-ai-will-let-you-know)
