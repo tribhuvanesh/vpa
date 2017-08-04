@@ -5,6 +5,7 @@ url: https://tribhuvanesh.github.io/vpa
 locale: en_US
 gems:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 owner:
   name: Tribhuvanesh Orekondy
