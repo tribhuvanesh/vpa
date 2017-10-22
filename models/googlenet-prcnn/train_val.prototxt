@@ -12,7 +12,7 @@ layer {
   top: "img_user_scores"
   include { phase: TRAIN }
   python_param {
-    module: "caffe.PAPInputLayer_v2"
+    module: "caffe.PAPInputLayer"
     layer: "PAPMultilabelDataLayerSync"
     param_str: "{\'anno_list\':\'/BS/orekondy2/work/blur_personal/experiments/2017-03-04/train.txt\', \'im_shape\': [227, 227], \'batch_size\': 64, \'label_shortlist\': \'/BS/orekondy2/work/blur_personal/experiments/2017-03-04/out/above30.tsv\', \'nlabels\': 68, \'memimages\': 1, \'user_prefs\': \'/BS/orekondy2/work/blur_personal/survey_graphs/2017-04-08-user-profiles-30.tsv\'}"
   }
