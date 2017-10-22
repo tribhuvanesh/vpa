@@ -9,9 +9,21 @@ We propose the first approach that extends this concept to image content in the 
 ## Resources
   - [Paper](https://arxiv.org/abs/1703.10660)
   - [Poster](http://resources.mpi-inf.mpg.de/d2/orekondy/orekondy17iccv.pdf)
-  - Code (Coming soon)
-  - Dataset (Coming soon)
+  - [Code](https://github.com/tribhuvanesh/vpa)
+
+## Dataset
+This dataset is released under the Apache 2.0 license. For images, original licenses apply (refer to `source_url` and `openimages_id` in respective annotation file).
+### Images
+  - [train](https://datasets.d2.mpi-inf.mpg.de/orekondy17iccv/train2017.tar.gz)  10k images, 21G
+  - [val](https://datasets.d2.mpi-inf.mpg.de/orekondy17iccv/val2017.tar.gz)  4.1k images, 8.8G
+  - [test](https://datasets.d2.mpi-inf.mpg.de/orekondy17iccv/test2017.tar.gz)  8k images, 17G
+
+### Annotations
+  - [train](https://datasets.d2.mpi-inf.mpg.de/orekondy17iccv/train2017_anno.tar.gz)
+  - [val](https://datasets.d2.mpi-inf.mpg.de/orekondy17iccv/val_anno2017.tar.gz)
+  - [test](https://datasets.d2.mpi-inf.mpg.de/orekondy17iccv/test_anno2017.tar.gz)
   
+
 ## Bibtex
 ```
 @inproceedings{orekondy17iccv,
@@ -20,7 +32,6 @@ We propose the first approach that extends this concept to image content in the 
   year = {2017},
   date = {2017-10-29},
   booktitle = {IEEE International Conference on Computer Vision (ICCV)},
-  note = {to appear},
   keywords = {2017},
   pubstate = {published},
   tppubtype = {inproceedings}
