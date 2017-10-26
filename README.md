@@ -26,7 +26,7 @@ We propose the first approach that extends this concept to image content in the 
 ```
 
 ## Dataset
-This dataset is released under the [Apache 2.0 license](https://github.com/tribhuvanesh/vpa/blob/master/LICENSE). For images, original licenses apply (refer to `source_url` and `openimages_id` in respective annotation file).
+This dataset is released under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/). For images, original licenses apply (refer to `source_url` and `openimages_id` in respective annotation file).
 
   - **train**: [images](https://datasets.d2.mpi-inf.mpg.de/orekondy17iccv/train2017.tar.gz) (10k images, 21G), [annotations](https://datasets.d2.mpi-inf.mpg.de/orekondy17iccv/train2017_anno.tar.gz)
   - **val**: [images](https://datasets.d2.mpi-inf.mpg.de/orekondy17iccv/val2017.tar.gz) (4.1k images, 8.8G), [annotations](https://datasets.d2.mpi-inf.mpg.de/orekondy17iccv/val2017_anno.tar.gz)
