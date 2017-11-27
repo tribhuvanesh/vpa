@@ -32,6 +32,8 @@ This dataset is released under a [Creative Commons Attribution-NonCommercial 4.0
   - **val**: [images](https://datasets.d2.mpi-inf.mpg.de/orekondy17iccv/val2017.tar.gz) (4.1k images, 8.8G), [annotations](https://datasets.d2.mpi-inf.mpg.de/orekondy17iccv/val2017_anno.tar.gz)
   - **test**: [images](https://datasets.d2.mpi-inf.mpg.de/orekondy17iccv/test2017.tar.gz) (8k images, 17G), [annotations](https://datasets.d2.mpi-inf.mpg.de/orekondy17iccv/test2017_anno.tar.gz)
 
+The images used in the user study (Section 4.2) can be downloaded [here](https://datasets.d2.mpi-inf.mpg.de/orekondy17iccv/user_study_2_images.tar.gz).
+
 ## People
   - [Tribhuvanesh Orekondy](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/people/tribhuvanesh-orekondy/)
   - [Bernt Schiele](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/people/bernt-schiele/)
