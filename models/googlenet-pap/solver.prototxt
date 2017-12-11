@@ -1,4 +1,4 @@
-net: "/BS/orekondy2/work/blur_personal/experiments/2017-03-04/googlenet/retrain/train_val.prototxt"
+net: "/home/orekondy/work2/datasets/VISPR2017-v1/models/googlenet-pap/train_val.prototxt"
 display: 40
 average_loss: 40
 base_lr: 0.001
@@ -9,5 +9,5 @@ max_iter: 50000
 momentum: 0.9
 weight_decay: 0.0002
 snapshot: 25000
-snapshot_prefix: "/BS/orekondy2/work/blur_personal/experiments/2017-03-04/googlenet/retrain/train"
+snapshot_prefix: "/home/orekondy/work2/datasets/VISPR2017-v1/models/googlenet-pap/trainval"
 solver_mode: GPU
