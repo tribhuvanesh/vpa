@@ -10,9 +10,9 @@ layer {
   top: "label"
   include { phase: TRAIN }
   python_param {
-    module: "caffe.PAPInputLayer"
-    layer: "PAPMultilabelDataLayerSync"
-    param_str: "{\'anno_list\':\'/BS/orekondy2/work/blur_personal/experiments/2017-03-04/train.txt\', \'im_shape\': [227, 227], \'batch_size\': 28, \'label_shortlist\': \'/BS/orekondy2/work/blur_personal/experiments/2017-03-04/out/above30.txt\', \'nlabels\': 68, \'memimages\': 1}"
+    module: "caffe.pap_data_layer"
+    layer: "PAPMultilabelDataLayer"
+    param_str: "{\'anno_list\':\'/BS/orekondy2/work/datasets/VISPR2017/trainval2017.txt\', \'im_shape\': [227, 227], \'batch_size\': 28, \'attribute_list_path\': \'/BS/orekondy2/work/datasets/VISPR2017/attributes.tsv\', \'memimages\': 1}"
   }
 }
 
@@ -2577,7 +2577,7 @@ layer {
 	name: "res5c_branch2b"
 	type: "Convolution"
 	param {
-		lr_mult: 100
+		lr_mult: 10
 		decay_mult: 1
 	}
 	convolution_param {
@@ -2629,7 +2629,7 @@ layer {
 	name: "res5c_branch2c"
 	type: "Convolution"
 	param {
-		lr_mult: 100
+		lr_mult: 10
 		decay_mult: 1
 	}
 	convolution_param {
@@ -2701,11 +2701,11 @@ layer {
 	name: "fc68"
 	type: "InnerProduct"
 	param {
-		lr_mult: 100
+		lr_mult: 10
 		decay_mult: 1
 	}
 	param {
-		lr_mult: 200
+		lr_mult: 20
 		decay_mult: 0
 	}
 	inner_product_param {
